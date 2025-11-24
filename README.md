@@ -8,7 +8,7 @@
 
   <!-- Video Embed -->
   <video controls autoplay muted loop>
-    <source src="./Minecraft Server Video.mp4" type="video/mp4">
+    <source src="./Minecraft Server Video.mp4" type="video/mp4" style="width:100; height:100; ">
     Your browser does not support the video tag.
   </video>
 </body>
