@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Minecraft Mod's</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+  <style>
+    html, body {
+      touch-action: manipulation;
+      overscroll-behavior: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      font-family: "Poppins", sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      width: 100vw;
+      height: 100vh;
+      z-index: 1;
+    }
+
+    .Logo img {
+      position: absolute;
+      width: 600px;
+      height: auto;
+      top: 0%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+    }
+
+    .Logo2 img {
+      position: absolute;
+      width: 250px;
+      top: 8%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+    }
+
+    .Mod-List {
+      position: absolute;
+      top: 28%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 75%;
+      height: 68%;
+      padding: 40px;
+      border-radius: 40px;
+
+      /* Glassmorphism */
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 0 40px rgba(255, 255, 255, 0.08);
+      z-index: 9999;
+
+      /*scroll bar hidden */
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+
+      overflow-y: auto;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #e2e2e2;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    /* Section Spacing */
+    .section {
+      margin-bottom: 40px;
+    }
+
+    /* Mod Cards */
+    .mod-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .mod-card {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.20);
+      backdrop-filter: blur(8px);
+      padding: 20px;
+      border-radius: 20px;
+      color: white;
+    }
+    .mod-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+    }
+
+    .mod-card h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <video src="background.mp4" autoplay loop muted></video>
+
+  <div class="Logo">
+    <img src="Logo.png">
+  </div>
+
+  <div class="Logo2">
+    <img src="Logo2.png">
+  </div>
+
+  <div class="Mod-List">
+
+    <div class="section">
+  <h2>About</h2>
+  <p>
+    Welcome to our official Minecraft Server Modpack!  
+    This pack is designed specifically for our multiplayer server and includes all required performance,
+    gameplay, and visual mods to ensure everyone has the same smooth, stable, and fun experience.
+    All players must install this modpack to join the server without issues.
+  </p>
+</div>
+
+<!-- SERVER INFO -->
+<div class="section">
+  <h2>Server Information</h2>
+  <p><strong>Server Name:</strong> SiderCraft SMP</p>
+  <p><strong>Version:</strong> Minecraft 1.20.1 Forge</p>
+  <p><strong>IP Address:</strong> (your-server-ip-here)</p>
+  <p><strong>Server Type:</strong> Survival + RPG + Enhanced World Generation</p>
+</div>
+
+<!-- UPDATES -->
+<div class="section">
+  <h2>Updates</h2>
+  <p><strong>Latest Update:</strong> Server Pack v1.0 Release – Total package rebuild, performance boost, and mod sync.</p>
+  <p><strong>Changelog:</strong></p>
+  <p>• Added world generation mods<br>
+     • Updated performance mods<br>
+     • Synced client–server libraries<br>
+     • Improved stability and loading speed</p>
+</div>
+
+<!-- REQUIRED MODS -->
+<div class="section">
+  <h2>Included Mods</h2>
+  <p>Below are all the mods installed on the server that are required for joining:</p>
+
+  <div class="mod-grid">
+
+    <div class="mod-card">
+      <h3>⚡ Performance Pack</h3>
+      <p>• FerriteCore<br>
+        • Sodium/Embeddium (Forge version)<br>
+        • Starlight<br>
+        • LazyDFU<br>
+        • ModernFix</p>
+    </div>
+
+    <div class="mod-card">
+      <h3>🌍 World Generation</h3>
+      <p>• Terralith<br>
+        • Biomes O' Plenty<br>
+        • YUNG’s Structures<br>
+        • Better Desert Temples<br>
+        • Better Dungeons</p>
+    </div>
+
+    <div class="mod-card">
+      <h3>⚔ RPG & Gameplay</h3>
+      <p>• Better Combat<br>
+        • PlayerEx or LevelZ (XP progression)<br>
+        • Bosses of Mass Destruction<br>
+        • Dungeon Crawl<br>
+        • Trinkets / Curios API</p>
+    </div>
+
+    <div class="mod-card">
+      <h3>🎒 Quality of Life</h3>
+      <p>• AppleSkin (Food info)<br>
+        • JEI (Item lookup)<br>
+        • Xaero’s Minimap + World Map<br>
+        • InventoryHUD+<br>
+        • Controlling (Key search)</p>
+    </div>
+
+    <div class="mod-card">
+      <h3>🧱 Building & Blocks</h3>
+      <p>• Chisel Reborn<br>
+        • Supplementaries<br>
+        • Decorative Blocks<br>
+        • More Lights</p>
+    </div>
+
+    <div class="mod-card">
+      <h3>🔧 Server Utilities</h3>
+      <p>• Forge Essentials / EssentialsX<br>
+        • Server Performance Fixes<br>
+        • AntiLag Systems<br>
+        • Login Protection</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- HOW TO INSTALL -->
+<div class="section">
+  <h2>How to Install</h2>
+  <p>1. Download the server modpack ZIP (client version).</p>
+  <p>2. Install <strong>Forge 1.20.1</strong>.</p>
+  <p>3. Extract the ZIP and place all files into your Minecraft <strong>/mods</strong> folder.</p>
+  <p>4. Launch Minecraft with Forge.</p>
+  <p>5. Join the server using the IP address listed above.</p>
+</div>
+
+<!-- FINAL NOTE -->
+<div class="section">
+  <h2>Important Notes</h2>
+  <p>• You must use the exact mods provided to avoid disconnect issues.<br>
+    • Any missing or outdated mods may cause errors when joining.<br>
+    • Contact staff if you experience loading problems.</p>
+</div>
+
+
+  </div>
+
+</body>
+</html>
