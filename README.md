@@ -1,15 +1,3 @@
-# Minecraft-Server-Page-DEMO
+# Minecraft Server Demo
 
-<!DOCTYPE html>
-<html lang="en">
-<body>
-  <h1>Minecraft Server Demo</h1>
-  <p>Watch this demo video of our Minecraft server!</p>
-
-  <!-- Video Embed -->
-  <video controls autoplay muted loop>
-    <source src="./Minecraft Server Video.mp4" type="video/mp4" style="width:100; height:100; ">
-    Your browser does not support the video tag.
-  </video>
-</body>
-</html>
+[![Watch the demo](thumbnail.png)](Minecraft%20Server%20Video.mp4)
