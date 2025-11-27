@@ -21,11 +21,11 @@ The main goal of this project is to provide a **modern, attractive landing page*
 
 ## Features
 
-- 🎮 Live MP4 background video  
-- 🖼 Glass-style content container  
-- 📜 Hidden scrollbar for smooth scrolling  
-- 🌐 Fully responsive design  
-- ⚡ Lightweight and easy to customize  
+-  Live MP4 background video  
+-  Glass-style content container  
+-  Hidden scrollbar for smooth scrolling  
+-  Fully responsive design  
+-  Lightweight and easy to customize  
 
 ---
 
